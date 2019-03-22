@@ -1,5 +1,5 @@
 function TuneGenerator() {
-    let notes = document.getElementsByName("notes")[0].value.split(",");
+    let notes = document.getElementsByName("notes")[0].value.split(";");
 
     if(!notes)
       return alert("Aucune note entrée.")
