@@ -40,7 +40,7 @@ function NotesGenerator(notes) {
 
         oscillator.start(0);
 
-        const duration = 1;
+        const duration = 0.2;
 
         gainNode.gain.linearRampToValueAtTime(0.0001, context.currentTime + duration);
         oscillator.stop(context.currentTime + duration);
