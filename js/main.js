@@ -22,7 +22,7 @@ function NotesGenerator(notes) {
             _this.playNote();
           else
             clearInterval(_this.interval);
-        }, 500);
+        }, 200);
     }
     this.playNote = function() {
         const oscillator = context.createOscillator();
